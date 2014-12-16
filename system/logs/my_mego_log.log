@@ -1,5 +1,0 @@
-2014-12-16 23:27:40 - PHP Notice:  Undefined index: name in C:\OpenServer\domains\develop\admin\view\template\admin_theme\base5builder_circloid\common\header.tpl on line 144
-2014-12-16 23:34:28 - PHP Notice:  Error: Table '1test.oc_circloid_custom_admin_page' doesn't exist<br />Error No: 1146<br />SELECT page_route FROM oc_circloid_custom_admin_page WHERE status = '1' in C:\OpenServer\domains\develop\system\database\mysql.php on line 50
-2014-12-16 23:37:02 - PHP Notice:  Undefined variable: direction in C:\OpenServer\domains\develop\admin\view\template\common\login.tpl on line 2
-2014-12-16 23:37:02 - PHP Notice:  Undefined variable: lang in C:\OpenServer\domains\develop\admin\view\template\common\login.tpl on line 2
-2014-12-16 23:51:27 - PHP Notice:  Error: Table 'mabase.oc_circloid_custom_admin_page' doesn't exist<br />Error No: 1146<br />SELECT page_route FROM oc_circloid_custom_admin_page WHERE status = '1' in C:\OpenServer\domains\develop\system\database\mysql.php on line 50
