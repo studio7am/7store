@@ -54,7 +54,6 @@ $(document).ready(function(){
 <body>
 <div id="container">
 <div id="header">
-<a href="/vqmod/install">Установить vqmod</a>
   <?php if ($logged) { ?>
   <div id="menu">
     <ul class="left" style="display: none;">
