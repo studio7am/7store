@@ -140,11 +140,7 @@ if(!isset($this->request->get['route'])){
 
 		<div class="header">
 			<div class="logo">
-				<a href="<?php echo $home; ?>">
-					<img class="visible-desktop" src="view/image/admin_theme/base5builder_circloid/logo-default.png" width="243" height="44" alt="Logo" />
-					<img class="visible-tablet" src="view/image/admin_theme/base5builder_circloid/logo-medium.png" width="156" height="44" alt="Logo" />
-					<img class="visible-phone" src="view/image/admin_theme/base5builder_circloid/logo-small.png" width="48" height="44" alt="Logo" />
-				</a>
+                <h2><?php echo $this->config->get('config_name'); ?></h2>
 			</div>
 			<!-- Menu Control For Mobile/Tablets -->
 			<div id="menu-control">
