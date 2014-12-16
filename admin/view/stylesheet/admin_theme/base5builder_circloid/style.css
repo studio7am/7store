@@ -71,6 +71,8 @@ a:focus{
 	margin: 8px 0 0 10px;
 	width: 32px;
 }
+
+.logo a {color: #fff; font-size: 24px; position: relative; left: 10px; top: 10px;}
 .success{
 	background: url("../../../image/admin_theme/base5builder_circloid/icon-success.png") no-repeat scroll 15px 6px #DFF0D8;
 	border-bottom: 1px solid #468847;
@@ -78,7 +80,6 @@ a:focus{
 	border-right: 1px solid #468847;
 	color: #468847;
 	cursor: pointer;
-	font-family: Roboto;
 	font-size: 13px;
 	left: 30%;
 	letter-spacing: normal;
@@ -98,7 +99,6 @@ a:focus{
 	border-right: 1px solid #B94A48;
 	color: #B94A48;
 	cursor: pointer;
-	font-family: Roboto;
 	font-size: 13px;
 	left: 30%;
 	letter-spacing: normal;

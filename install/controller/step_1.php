@@ -30,9 +30,9 @@ class ControllerStep1 extends Controller {
 		}
 		
     	if (!$this->error) {
-      		return true;
-    	} else {
       		return false;
+    	} else {
+      		return true;
     	}		
 	}	
 }

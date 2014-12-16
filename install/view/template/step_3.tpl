@@ -1,8 +1,8 @@
 <?php echo $header; ?>
 <h1>Шаг 3 - Конфигурация</h1>
-<div id="column-right">
+<div id="column-right" class="well">
   <ul>
-      <li>Лицензия</li>
+      <li>Старт</li>
       <li>Перед установкой</li>
       <li><b>Конфигурация</b></li>
       <li>Окончание</li>
@@ -13,9 +13,9 @@
   <div class="warning"><?php echo $error_warning; ?></div>
   <?php } ?>
   <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
-    <p>1 . Введите настройки БД.</p>
+    <h4>1 . Введите настройки БД.</h4>
     <fieldset>
-      <table class="form">
+      <table class="table table-bordered">
         <tr>
           <td>Драйвер БД:</td>
           <td><select name="db_driver">
@@ -60,9 +60,9 @@
         </tr>
       </table>
     </fieldset>
-    <p>2. Введите логин и пароль администратора.</p>
+    <h4>2. Введите логин и пароль администратора.</h4>
     <fieldset>
-      <table class="form">
+      <table class="table table-bordered">
         <tr>
           <td><span class="required">*</span> Логин:</td>
           <td><input type="text" name="username" value="<?php echo $username; ?>" />
@@ -90,9 +90,9 @@
       </table>
     </fieldset>
     <div class="buttons">
-      <div class="left"><a href="<?php echo $back; ?>" class="button">Назад</a></div>
+      <div class="left"><a href="<?php echo $back; ?>" class="btn btn-danger">Назад</a></div>
       <div class="right">
-        <input type="submit" value="Продолжить" class="button" />
+        <input type="submit" value="Продолжить" class="btn btn-primary" />
       </div>
     </div>
   </form>

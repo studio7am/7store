@@ -1,8 +1,8 @@
 <?php echo $header; ?>
 <h1>Шаг 2 - Перед установкой</h1>
-<div id="column-right">
+<div id="column-right" class="well">
   <ul>
-      <li>Лицензия</li>
+      <li>Старт</li>
       <li><b>Перед установкой</b></li>
       <li>Конфигурация</li>
       <li>Окончание</li>
@@ -13,9 +13,9 @@
   <div class="warning"><?php echo $error_warning; ?></div>
   <?php } ?>
   <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
-    <p>1. Настройте PHP для соответствия следующим требованиям.</p>
+    <h4>1. Настройте PHP для соответствия следующим требованиям.</h4>
     <fieldset>
-      <table>
+      <table class="table table-bordered">
         <tr>
           <th width="35%" align="left"><b>Настройки PHP</b></th>
             <th width="25%" align="left"><b>Текущие настройки</b></th>
@@ -54,9 +54,10 @@
         </tr>
       </table>
     </fieldset>
-    <p>2. Убедитесь, что перечисленные ниже расширения установлены.</p>
+    <hr>
+    <h4>2. Убедитесь, что перечисленные ниже расширения установлены.</h4>
     <fieldset>
-      <table>
+      <table class="table table-bordered">
         <tr>
 			<th width="35%" align="left"><b>Расширения</b></th>
 			<th width="25%" align="left"><b>Текущие настройки</b></th>
@@ -95,9 +96,11 @@
         </tr>
       </table>
     </fieldset>
-    <p>3. Убедитесь, что перечисленные ниже файлы имеют разрешение на запись.</p>
+    <hr>
+
+    <h4>3. Убедитесь, что перечисленные ниже файлы имеют разрешение на запись.</h4>
     <fieldset>
-      <table>
+      <table class="table table-bordered">
         <tr>
           <th align="left"><b>Файл</b></th>
           <th align="left"><b>Состояние</b></th>
@@ -126,9 +129,11 @@
         </tr>
       </table>
     </fieldset>
-    <p>4. Убедитесь, что перечисленные ниже каталоги, а также все их подкаталоги и файлы в них имеют разрешение на запись.</p>
+    <hr>
+
+    <h4>4. Убедитесь, что перечисленные ниже каталоги, а также все их подкаталоги и файлы в них имеют разрешение на запись.</h4>
     <fieldset>
-      <table>
+      <table class="table table-bordered">
           <tr>
             <th align="left"><b>Директория</b></th>
             <th width="30%" align="left"><b>Состояние</b></th>
@@ -160,9 +165,9 @@
         </table>
     </fieldset>
     <div class="buttons">
-      <div class="left"><a href="<?php echo $back; ?>" class="button">Назад</a></div>
+      <div class="left"><a href="<?php echo $back; ?>" class="btn btn-danger">Назад</a></div>
       <div class="right">
-        <input type="submit" value="Продолжить" class="button" />
+        <input type="submit" value="Продолжить" class="btn btn-primary" />
       </div>
     </div>
   </form>

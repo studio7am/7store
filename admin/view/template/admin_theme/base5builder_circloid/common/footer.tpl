@@ -1,4 +1,4 @@
-	<div class="footer-text"><?php echo $text_footer; ?></div>
+	<div class="footer-text">© 2014 7store - Форк для проектов студии <a href="http://vk.com/7amstudio" target="_blank">7 утра</a></div>
 	<?php
 
 		if ($logged) { // Only displays when a user is logged in

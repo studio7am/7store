@@ -2,9 +2,10 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8" />
-<title>ocStore - Установка</title>
+<title>7store - Установка</title>
 <base href="<?php echo $base; ?>" />
 <link rel="stylesheet" type="text/css" href="view/stylesheet/stylesheet.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script type="text/javascript" src="view/javascript/cufon/cufon-yui.js"></script>
 <script type="text/javascript" src="view/javascript/cufon/Verdana_400.font.js"></script>
 <script type="text/javascript" src="view/javascript/cufon/Trebuchet_MS_400.font.js"></script>
@@ -19,4 +20,5 @@ Cufon.replace('h2, #header a, .blog-list .date, .blog-list .comment, .blog-info 
 <div id="container">
 <div id="header">
   <div id="logo"><img src="view/image/logo.png" alt="ocStore" title="ocStore" /></div>
+  <h1>7store</h1>
 </div>

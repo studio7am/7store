@@ -54,12 +54,7 @@ $(document).ready(function(){
 <body>
 <div id="container">
 <div id="header">
-  <div class="div1">
-    <div class="div2"><img src="view/image/logo.png" title="<?php echo $heading_title; ?>" onclick="location = '<?php echo $home; ?>'" /></div>
-    <?php if ($logged) { ?>
-    <div class="div3"><img src="view/image/lock.png" alt="" style="position: relative; top: 3px;" />&nbsp;<?php echo $logged; ?></div>
-    <?php } ?>
-  </div>
+<a href="/vqmod/install">Установить vqmod</a>
   <?php if ($logged) { ?>
   <div id="menu">
     <ul class="left" style="display: none;">

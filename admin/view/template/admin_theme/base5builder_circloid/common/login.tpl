@@ -2,7 +2,6 @@
 <div id="content" class="login">
 	<div id="logo">
 		<a href="./">
-			<img src="view/image/admin_theme/base5builder_circloid/logo-default.png" alt="Logo" >
 		</a>
 	</div>
 	<form class="form-signin" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
