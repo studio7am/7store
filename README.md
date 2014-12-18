@@ -7,6 +7,10 @@
            $ git clone git@github.com:studio7am/7store.git new-store & cd new-store
            $ create-config.sh
 
+Если нужна чистая тема - запускаем
+           
+           $ install-open-blank.sh
+
 ### История 
            17.12.2014
 
